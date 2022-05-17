@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.title {
+    padding: 10px;
+    font-size: 200%;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+.container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    /* outline: dashed 2px red; */
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    font-size: 25vw;
+}
