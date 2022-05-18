@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Unicode Poker</title>
 </head>
 <body>
     <div class="title">Unicode Poker</div>
     <div class="container">
-        <ul class="cards">
-            <li class="card spades">
-                🂮
+        <ul class="cards" id="hand">
+            <li class="card" >
+                <div id="hand-pos-1">🂮</div>
                 <button type="button">Redraw</button>
             </li>
-            <li class="card spades">
-                🂭
+            <li class="card">
+                <div id="hand-pos-2">🂭</div>
                 <button type="button">Redraw</button>
             </li>
-            <li class="card hearts">
-                🂲
+            <li class="card">
+                <div id="hand-pos-3">🂲</div>
                 <button type="button">Redraw</button>
             </li>
-            <li class="card diamonds">
-                🃄
+            <li class="card">
+                <div id="hand-pos-4">🃄</div>
                 <button type="button">Redraw</button>
             </li>
-            <li class="card clubs">
-                🃑
+            <li class="card">
+                <div id="hand-pos-5">🃑</div>
                 <button type="button">Redraw</button>
             </li>
         </ul>
     </div>
 </body>
+<script src="js/unicodeCards.js"></script>
 </html>
