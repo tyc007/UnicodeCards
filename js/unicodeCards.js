@@ -13,13 +13,25 @@ console.log(unicodeFromCodePoint('1F639'));
 console.log(cardBack);
 */
 
+/*
+Temporary function to randomize valid cards on reload, until deck function is created
+*/
+
+
 let cardHexes = [];
+// List of undesired blanks and Joker emoji
+const invalidHexes = ['1F0AF', '1F0B0', '1F0C0', '1F0D0', '1F0CF'];
+const jokers = ['1F0BF', '1F0DF'];
 
 // Array of Unicode Cards
-let i = '1F0A0';
-while(i != '1F0F5'){
-	cardHexes.push(i);
-  i = (parseInt(i, 16) + 1).toString(16).toUpperCase();
+let hex = '1F0A1';
+// 1F0DF last range of French deck, 1F0F5 includes range of Trump Cards
+while(hex != '1F0DF'){
+    if(!(invalidHexes.includes(hex) || jokers.includes(hex))) {
+        cardHexes.push(hex);
+    }
+   
+    hex = (parseInt(hex, 16) + 1).toString(16).toUpperCase();
 }
 
 for(let i = 1; i <= 5; i++){
