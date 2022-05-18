@@ -31,6 +31,8 @@ ul {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     font-size: 25vw;
 }
 
