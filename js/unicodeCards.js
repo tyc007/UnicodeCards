@@ -22,12 +22,13 @@ let cardHexes = [];
 // List of undesired blanks and Joker emoji
 const invalidHexes = ['1F0AF', '1F0B0', '1F0C0', '1F0D0', '1F0CF'];
 const jokers = ['1F0BF', '1F0DF'];
+const knights = ['1F0AC', '1F0BC0', '1F0CC', '1F0DC'];
 
 // Array of Unicode Cards
 let hex = '1F0A1';
 // 1F0DF last range of French deck, 1F0F5 includes range of Trump Cards
 while(hex != '1F0DF'){
-    if(!(invalidHexes.includes(hex) || jokers.includes(hex))) {
+    if(!(invalidHexes.includes(hex) || jokers.includes(hex) || knights.includes(hex))) {
         cardHexes.push(hex);
     }
    
