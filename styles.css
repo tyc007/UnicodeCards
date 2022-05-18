@@ -33,3 +33,11 @@ ul {
 .card {
     font-size: 25vw;
 }
+
+.diamonds, .hearts {
+    color: red;
+}
+
+.clubs, .spades {
+    color: black;
+}
