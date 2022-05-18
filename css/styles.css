@@ -22,18 +22,24 @@ ul {
     align-self: center;
     justify-content: center;
     align-items: center;
-    /* outline: dashed 2px red; */
+    
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    padding: 0;
+    margin: 0; 
+    /*outline: dashed 5px red;*/
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 25vw;
+    line-height: 25vw;
+    /*outline: dashed 2px blue;*/
 }
 
 .diamonds, .hearts {
@@ -42,4 +48,10 @@ ul {
 
 .clubs, .spades {
     color: black;
+}
+
+.card>button{
+    padding: 3px;
+    width: 8vw;
+    
 }
