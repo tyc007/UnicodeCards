@@ -1,9 +1,10 @@
 const cardBack = ['Playing Card Back', '\uD83C\uDCA0', '1F0A0']; //1F0A0
-
+/*
 function unicodeFromCodePoint (num) {
     return String.fromCodePoint(parseInt(num,16));
-}
+}*/
 
+unicodeFromCodePoint => String.fromCodePoint(parseInt(num,16));
 // Methods for displaying unicode in console
 /*
 console.log( String.fromCodePoint( 0x1F0A0 ) ); 
