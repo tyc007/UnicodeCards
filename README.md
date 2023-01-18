@@ -1,2 +1,2 @@
-# UnicodePoker
-Unicode Poker
+# UnicodeCards
+Unicode Card Games
