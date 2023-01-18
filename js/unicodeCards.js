@@ -39,7 +39,7 @@ while(hex != '1F0DF'){
 for(let i = 1; i <= 5; i++){
     let cardHex = cardHexes[Math.floor(Math.random()*cardHexes.length)];
     let unicodeCard = String.fromCodePoint( parseInt(cardHex,16));
-    document.getElementById('hand-pos-'+i).innerHTML = String.fromCodePoint( parseInt(cardHex,16));
+    //document.getElementById('hand-pos-'+i).innerHTML = String.fromCodePoint( parseInt(cardHex,16));
     //console.log(`'hand-pos-${i} - ${unicodeCard} - ${cardHex}`);
 }
 

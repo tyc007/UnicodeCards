@@ -5,6 +5,20 @@ export default class Deck{
     constructor(cards = newDeck()) {
         this.cards = cards;
     }
+
+    get numberOfCards() {
+        return this.cards.length
+    }
+
+    shuffle() {
+        //this.cards.sort((a,b) => Math.random(0 - .5))
+        for (let i = this.numberOfCards - 1; i > 0; i--) {
+            const newIndex = Math.floor(Math.random() * (i + 1))
+            const oldValue = this.cards[newIndex]
+            this.cards[newIndex] = this.cards[i]
+            this.cards[i] = oldValue
+        }
+    }
 }
 
 class Card {
@@ -17,7 +31,7 @@ class Card {
 function newDeck() {
     return SUITS.flatMap(suit => {
         return VALUES.map(value => {
-            return new Card(suit, value);
+            return new Card(suit, value)
         })
     })
 
