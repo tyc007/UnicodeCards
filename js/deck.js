@@ -10,6 +10,10 @@ export default class Deck{
         return this.cards.length
     }
 
+    pop() {
+        return this.cards.pop()
+    }
+
     shuffle() {
         //this.cards.sort((a,b) => Math.random(0 - .5))
         for (let i = this.numberOfCards - 1; i > 0; i--) {
