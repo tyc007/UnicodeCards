@@ -1,5 +1,5 @@
 const SUITS = ['♠','♥','♦','♣'];
-const VALUES = [ "A","2","3","4","5","6","7","8","9","10","J","Q","K"];
+const RANKS = [ "A","2","3","4","5","6","7","8","9","10","J","Q","K"];
 
 export default class Deck{
     constructor(cards = newDeck()) {
@@ -18,24 +18,24 @@ export default class Deck{
         //this.cards.sort((a,b) => Math.random(0 - .5))
         for (let i = this.numberOfCards - 1; i > 0; i--) {
             const newIndex = Math.floor(Math.random() * (i + 1))
-            const oldValue = this.cards[newIndex]
+            const oldrank = this.cards[newIndex]
             this.cards[newIndex] = this.cards[i]
-            this.cards[i] = oldValue
+            this.cards[i] = oldrank
         }
     }
 }
 
 class Card {
-    constructor(suit, value) {
+    constructor(suit, rank) {
         this.suit = suit;
-        this.value = value;
+        this.rank = rank;
     }
 }
 
 function newDeck() {
     return SUITS.flatMap(suit => {
-        return VALUES.map(value => {
-            return new Card(suit, value)
+        return RANKS.map(rank => {
+            return new Card(suit, rank)
         })
     })
 
