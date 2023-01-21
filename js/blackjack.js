@@ -11,6 +11,8 @@ const dealButton    = document.getElementById("deal");
 const hitButton     = document.getElementById("hit")
 
 let deck;
+let dealerScore = 0;
+let playerScore = 0;
 
 window.onload = function() {
     buildDeck();
@@ -20,8 +22,7 @@ window.onload = function() {
 function startGame() {
     console.log(deck.cards);
     for (let i = 0; i < 2; i+=1) {
-        let card = deck.cards.pop();
-        playerHand.append(wrapCardInSpan(card));
+        hit();
     }
 
     hitButton.addEventListener("click", hit);
@@ -36,11 +37,30 @@ function buildDeck() {
 function hit(){
     let card = deck.cards.pop();
     let cardSpan = document.createElement("span")
-    playerHand.append(wrapCardInSpan(card));
-    playerHand.append(cardSpan);
+    let score = getCardScore(card)
+    playerScore += getCardScore(card)
+    console.log("PlayerScore", playerScore)
+    playerHand.append(wrapCardInSpanWithCSS(card));
 }
 
-function wrapCardInSpan(card){
+function getCardScore(card) {
+    let rank = card.rank;
+
+    if (isNaN(rank)) {
+        if (rank == "A") {
+            if (playerScore >= 11) {
+                return 1;
+            }
+            else{
+                return 11;
+            }
+        }
+        return 10;
+    }
+    return parseInt(rank);
+}
+
+function wrapCardInSpanWithCSS(card){
     let cardSpan = document.createElement("span");
     cardSpan.setAttribute('class', getCardDetails(card).suit);
     cardSpan.innerHTML  = getCardUnicode(card);
