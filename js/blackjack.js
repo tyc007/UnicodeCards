@@ -13,6 +13,8 @@ const hitButton     = document.getElementById("hit")
 let deck;
 let dealerScore = 0;
 let playerScore = 0;
+let dealerAceCount = 0;
+let playerAceCount = 0;
 
 window.onload = function() {
     buildDeck();
@@ -45,19 +47,24 @@ function hit(){
 
 function getCardScore(card) {
     let rank = card.rank;
+    return (isNaN(rank) ? faceOrAce(rank) : parseInt(rank));
+}
 
-    if (isNaN(rank)) {
-        if (rank == "A") {
-            if (playerScore >= 11) {
-                return 1;
-            }
-            else{
-                return 11;
-            }
+function faceOrAce(rank) {
+    if (rank == "A") {
+        if (playerScore >= 11){
+            return 1;
         }
+        else
+        {
+            return 11;
+        }
+    }
+    else{
         return 10;
     }
-    return parseInt(rank);
+
+    
 }
 
 function wrapCardInSpanWithCSS(card){
