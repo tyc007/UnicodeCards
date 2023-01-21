@@ -1,314 +1,314 @@
 [
   {
     "name": "Ace of Spades",
-    "suit": "A",
-    "symbol": "♠",
+    "rank": "A",
+    "suit": "♠",
     "codepoint": "1F0A1"
   },
   {
     "name": "Ace of Hearts",
-    "suit": "A",
-    "symbol": "♥",
+    "rank": "A",
+    "suit": "♥",
     "codepoint": "1F0B1"
   },
   {
     "name": "Ace of Diamonds",
-    "suit": "A",
-    "symbol": "♦",
+    "rank": "A",
+    "suit": "♦",
     "codepoint": "1F0C1"
   },
   {
     "name": "Ace of Clubs",
-    "suit": "A",
-    "symbol": "♣",
+    "rank": "A",
+    "suit": "♣",
     "codepoint": "1F0D1"
   },
   {
     "name": "Two of Spades",
-    "suit": "2",
-    "symbol": "♠",
+    "rank": "2",
+    "suit": "♠",
     "codepoint": "1F0A2"
   },
   {
     "name": "Two of Hearts",
-    "suit": "2",
-    "symbol": "♥",
+    "rank": "2",
+    "suit": "♥",
     "codepoint": "1F0B2"
   },
   {
     "name": "Two of Diamonds",
-    "suit": "2",
-    "symbol": "♦",
+    "rank": "2",
+    "suit": "♦",
     "codepoint": "1F0C2"
   },
   {
     "name": "Two of Clubs",
-    "suit": "2",
-    "symbol": "♣",
+    "rank": "2",
+    "suit": "♣",
     "codepoint": "1F0D2"
   },
   {
     "name": "Three of Spades",
-    "suit": "3",
-    "symbol": "♠",
+    "rank": "3",
+    "suit": "♠",
     "codepoint": "1F0A3"
   },
   {
     "name": "Three of Hearts",
-    "suit": "3",
-    "symbol": "♥",
+    "rank": "3",
+    "suit": "♥",
     "codepoint": "1F0B3"
   },
   {
     "name": "Three of Diamonds",
-    "suit": "3",
-    "symbol": "♦",
+    "rank": "3",
+    "suit": "♦",
     "codepoint": "1F0C3"
   },
   {
     "name": "Three of Clubs",
-    "suit": "3",
-    "symbol": "♣",
+    "rank": "3",
+    "suit": "♣",
     "codepoint": "1F0D3"
   },
   {
     "name": "Four of Spades",
-    "suit": "4",
-    "symbol": "♠",
+    "rank": "4",
+    "suit": "♠",
     "codepoint": "1F0A4"
   },
   {
     "name": "Four of Hearts",
-    "suit": "4",
-    "symbol": "♥",
+    "rank": "4",
+    "suit": "♥",
     "codepoint": "1F0B4"
   },
   {
     "name": "Four of Diamonds",
-    "suit": "4",
-    "symbol": "♦",
+    "rank": "4",
+    "suit": "♦",
     "codepoint": "1F0C4"
   },
   {
     "name": "Four of Clubs",
-    "suit": "4",
-    "symbol": "♣",
+    "rank": "4",
+    "suit": "♣",
     "codepoint": "1F0D4"
   },
   {
     "name": "Five of Spades",
-    "suit": "5",
-    "symbol": "♠",
+    "rank": "5",
+    "suit": "♠",
     "codepoint": "1F0A5"
   },
   {
     "name": "Five of Hearts",
-    "suit": "5",
-    "symbol": "♥",
+    "rank": "5",
+    "suit": "♥",
     "codepoint": "1F0B5"
   },
   {
     "name": "Five of Diamonds",
-    "suit": "5",
-    "symbol": "♦",
+    "rank": "5",
+    "suit": "♦",
     "codepoint": "1F0C5"
   },
   {
     "name": "Five of Clubs",
-    "suit": "5",
-    "symbol": "♣",
+    "rank": "5",
+    "suit": "♣",
     "codepoint": "1F0D5"
   },
   {
     "name": "Six of Spades",
-    "suit": "6",
-    "symbol": "♠",
+    "rank": "6",
+    "suit": "♠",
     "codepoint": "1F0A6"
   },
   {
     "name": "Six of Hearts",
-    "suit": "6",
-    "symbol": "♥",
+    "rank": "6",
+    "suit": "♥",
     "codepoint": "1F0B6"
   },
   {
     "name": "Six of Diamonds",
-    "suit": "6",
-    "symbol": "♦",
+    "rank": "6",
+    "suit": "♦",
     "codepoint": "1F0C6"
   },
   {
     "name": "Six of Clubs",
-    "suit": "6",
-    "symbol": "♣",
+    "rank": "6",
+    "suit": "♣",
     "codepoint": "1F0D6"
   },
   {
     "name": "Seven of Spades",
-    "suit": "7",
-    "symbol": "♠",
+    "rank": "7",
+    "suit": "♠",
     "codepoint": "1F0A7"
   },
   {
     "name": "Seven of Hearts",
-    "suit": "7",
-    "symbol": "♥",
+    "rank": "7",
+    "suit": "♥",
     "codepoint": "1F0B7"
   },
   {
     "name": "Seven of Diamonds",
-    "suit": "7",
-    "symbol": "♦",
+    "rank": "7",
+    "suit": "♦",
     "codepoint": "1F0C7"
   },
   {
     "name": "Seven of Clubs",
-    "suit": "7",
-    "symbol": "♣",
+    "rank": "7",
+    "suit": "♣",
     "codepoint": "1F0D7"
   },
   {
     "name": "Eight of Spades",
-    "suit": "8",
-    "symbol": "♠",
+    "rank": "8",
+    "suit": "♠",
     "codepoint": "1F0A8"
   },
   {
     "name": "Eight of Hearts",
-    "suit": "8",
-    "symbol": "♥",
+    "rank": "8",
+    "suit": "♥",
     "codepoint": "1F0B8"
   },
   {
     "name": "Eight of Diamonds",
-    "suit": "8",
-    "symbol": "♦",
+    "rank": "8",
+    "suit": "♦",
     "codepoint": "1F0C8"
   },
   {
     "name": "Eight of Clubs",
-    "suit": "8",
-    "symbol": "♣",
+    "rank": "8",
+    "suit": "♣",
     "codepoint": "1F0D8"
   },
   {
     "name": "Nine of Spades",
-    "suit": "9",
-    "symbol": "♠",
+    "rank": "9",
+    "suit": "♠",
     "codepoint": "1F0A9"
   },
   {
     "name": "Nine of Hearts",
-    "suit": "9",
-    "symbol": "♥",
+    "rank": "9",
+    "suit": "♥",
     "codepoint": "1F0B9"
   },
   {
     "name": "Nine of Diamonds",
-    "suit": "9",
-    "symbol": "♦",
+    "rank": "9",
+    "suit": "♦",
     "codepoint": "1F0C9"
   },
   {
     "name": "Nine of Clubs",
-    "suit": "9",
-    "symbol": "♣",
+    "rank": "9",
+    "suit": "♣",
     "codepoint": "1F0D9"
   },
   {
     "name": "Ten of Spades",
-    "suit": "10",
-    "symbol": "♠",
+    "rank": "10",
+    "suit": "♠",
     "codepoint": "1F0AA"
   },
   {
     "name": "Ten of Hearts",
-    "suit": "10",
-    "symbol": "♥",
+    "rank": "10",
+    "suit": "♥",
     "codepoint": "1F0BA"
   },
   {
     "name": "Ten of Diamonds",
-    "suit": "10",
-    "symbol": "♦",
+    "rank": "10",
+    "suit": "♦",
     "codepoint": "1F0CA"
   },
   {
     "name": "Ten of Clubs",
-    "suit": "10",
-    "symbol": "♣",
+    "rank": "10",
+    "suit": "♣",
     "codepoint": "1F0DA"
   },
   {
     "name": "Jack of Spades",
-    "suit": "J",
-    "symbol": "♠",
+    "rank": "J",
+    "suit": "♠",
     "codepoint": "1F0AB"
   },
   {
     "name": "Jack of Hearts",
-    "suit": "J",
-    "symbol": "♥",
+    "rank": "J",
+    "suit": "♥",
     "codepoint": "1F0BB"
   },
   {
     "name": "Jack of Diamonds",
-    "suit": "J",
-    "symbol": "♦",
+    "rank": "J",
+    "suit": "♦",
     "codepoint": "1F0CB"
   },
   {
     "name": "Jack of Clubs",
-    "suit": "J",
-    "symbol": "♣",
+    "rank": "J",
+    "suit": "♣",
     "codepoint": "1F0DB"
   },
   {
     "name": "Queen of Spades",
-    "suit": "Q",
-    "symbol": "♠",
+    "rank": "Q",
+    "suit": "♠",
     "codepoint": "1F0AD"
   },
   {
     "name": "Queen of Hearts",
-    "suit": "Q",
-    "symbol": "♥",
+    "rank": "Q",
+    "suit": "♥",
     "codepoint": "1F0BD"
   },
   {
     "name": "Queen of Diamonds",
-    "suit": "Q",
-    "symbol": "♦",
+    "rank": "Q",
+    "suit": "♦",
     "codepoint": "1F0CD"
   },
   {
     "name": "Queen of Clubs",
-    "suit": "Q",
-    "symbol": "♣",
+    "rank": "Q",
+    "suit": "♣",
     "codepoint": "1F0DD"
   },
   {
     "name": "King of Spades",
-    "suit": "K",
-    "symbol": "♠",
+    "rank": "K",
+    "suit": "♠",
     "codepoint": "1F0AE"
   },
   {
     "name": "King of Hearts",
-    "suit": "K",
-    "symbol": "♥",
+    "rank": "K",
+    "suit": "♥",
     "codepoint": "1F0BE"
   },
   {
     "name": "King of Diamonds",
-    "suit": "K",
-    "symbol": "♦",
+    "rank": "K",
+    "suit": "♦",
     "codepoint": "1F0CE"
   },
   {
     "name": "King of Clubs",
-    "suit": "K",
-    "symbol": "♣",
+    "rank": "K",
+    "suit": "♣",
     "codepoint": "1F0DE"
   }
  ]
