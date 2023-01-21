@@ -21,7 +21,7 @@ function startGame() {
     console.log(deck.cards);
     for (let i = 0; i < 2; i+=1) {
         let card = deck.cards.pop();
-        playerHand.insertAdjacentHTML('afterend', getCardUnicode(card));
+        playerHand.append(wrapCardInSpan(card));
     }
 
     hitButton.addEventListener("click", hit);
@@ -35,11 +35,17 @@ function buildDeck() {
 
 function hit(){
     let card = deck.cards.pop();
-    playerHand.insertAdjacentHTML('afterend', getCardUnicode(card));
+    let cardSpan = document.createElement("span")
+    playerHand.append(wrapCardInSpan(card));
+    playerHand.append(cardSpan);
 }
 
-
-//dealBtn.addEventListener("click", function () { deal(deck)});
+function wrapCardInSpan(card){
+    let cardSpan = document.createElement("span");
+    cardSpan.setAttribute('class', getCardDetails(card).suit);
+    cardSpan.innerHTML  = getCardUnicode(card);
+    return cardSpan;
+}
 
 function unicodeFromCodePoint(num){
     return String.fromCodePoint(parseInt(num,16));

@@ -42,11 +42,11 @@ ul {
     /*outline: dashed 2px blue;*/
 }
 
-.diamonds, .hearts {
+.diamonds, .hearts, .♥, .♦{
     color: red;
 }
 
-.clubs, .spades {
+.clubs, .spades, .♠, .♣{
     color: black;
 }
 
